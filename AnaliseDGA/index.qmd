@@ -1,12 +1,21 @@
 ---
-title: "AnaliseDGA"
-subtitle: "Sistema de Diagnóstico Inteligente de Transformadores de Potência por Análise DGA"
-author:
-  - "Otacílio Rodrigues Oliveira Filho"
-  - "Orientador: Prof. Dr. Raphael Barros Teixeira"
+pagetitle: "Análise DGA"
+
 ---
 
-[⬅ Site principal](https://raphateixeira.github.io)
+::: {.rtx-hero}
+[Mestrado · PPCA]{.rtx-eyebrow}
+
+# Análise DGA {.unnumbered .unlisted}
+
+Sistema de diagnóstico inteligente de transformadores de potência por análise de gases dissolvidos em óleo (DGA), com ANN, KNN e o método de Duval.
+
+[Otacílio Rodrigues Oliveira Filho · orientação: Prof. Dr. Raphael Teixeira]{.rtx-meta}
+
+::: {.rtx-acoes}
+[Dissertação (PDF)](Publicacoes/Dissertacao_Otacilio.pdf){.rtx-btn .rtx-btn-primario} [Apresentação](Apresentacao/apresentacao.html){.rtx-btn} [GitHub](https://github.com/raphateixeira/AnaliseDGA){.rtx-btn} [Site do professor](https://raphateixeira.github.io){.rtx-btn}
+:::
+:::
 
 Sistema de diagnóstico inteligente de faltas em transformadores de potência baseado na Análise de Gases Dissolvidos em óleo (DGA), utilizando os métodos ANN (Redes Neurais Artificiais), KNN (k-vizinhos mais próximos) e DUVAL.
 Trabalho da dissertação de mestrado de Otacílio Rodrigues Oliveira Filho
