@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - DataSet/DataSetDGA.xlsx
+    - Publicacoes/Dissertacao_Otacilio.pdf
+    - Publicacoes/Artigo_PPCA_DGA.pdf
+
+website:
+  title: "AnaliseDGA"
+  site-url: https://raphateixeira.github.io/AnaliseDGA/
+  repo-url: https://github.com/raphateixeira/AnaliseDGA
+
+format:
+  html:
+    theme: [cosmo, TemaRTx.scss]
+    lang: pt-BR
+    toc: true
+
+execute:
+  enabled: false
