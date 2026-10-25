@@ -90,7 +90,7 @@ Extraído da saída salva de [`RNA.ipynb`](../ResultadosMestrado/RNA.html):
 
 ::: {.callout-note}
 Seção a preencher conforme os novos modelos forem desenvolvidos em
-[`ResultadosNovos/`](../ResultadosNovos/).
+[`ResultadosNovos/`](https://github.com/raphateixeira/Orientacoes/tree/main/AnaliseDGA/ResultadosNovos).
 :::
 
 - Algoritmo(s): _a definir_
@@ -117,7 +117,7 @@ classe, matriz de confusão, kappa)._
 
 - Os modelos do mestrado alcançaram acurácia entre ~95–96% com poucas classes agrupadas.
 - Próximos passos:
-  1. Treinar novos modelos em [`ResultadosNovos/`](../ResultadosNovos/) sobre as **7 classes originais** (não agrupadas).
+  1. Treinar novos modelos em [`ResultadosNovos/`](https://github.com/raphateixeira/Orientacoes/tree/main/AnaliseDGA/ResultadosNovos) sobre as **7 classes originais** (não agrupadas).
   2. Tratar o desbalanceamento de classes (ex.: `NO` domina ~65% dos dados).
   3. Atualizar esta apresentação com os resultados obtidos.
 
