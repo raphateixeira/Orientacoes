@@ -13,7 +13,7 @@ PDF incluído neste repositório em `Publicacoes/Dissertacao_Otacilio.pdf`).
 - **Autor:** Otacílio Rodrigues Oliveira Filho
 - **Orientador:** Prof. Dr. Raphael Barros Teixeira
 
-🔗 Site: https://raphateixeira.github.io/AnaliseDGA/
+🔗 Site: https://raphateixeira.github.io/Orientacoes/#analise-dga
 
 ## Conteúdo
 

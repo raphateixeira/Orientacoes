@@ -1,0 +1,55 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    # Mestrado — Otacílio (ex-AnaliseDGA)
+    - AnaliseDGA/DataSet/Dataset.qmd
+    - AnaliseDGA/ResultadosMestrado/*.ipynb
+    - AnaliseDGA/Apresentacao/apresentacao.qmd
+    # Mestrado — Raphael Saraiva Sousa (ex-MScRaphael)
+    - DiagnosticoMalaria/*.ipynb
+    # TCC — Diego Antonio Silva de Jesus (ex-TCC-PID-AlgoritmoGenetico)
+    - PIDAlgoritmoGenetico/*.ipynb
+  resources:
+    - AnaliseDGA/DataSet/DataSetDGA.xlsx
+    - AnaliseDGA/Publicacoes/*.pdf
+    - PIDAlgoritmoGenetico/Present_Diego.pdf
+
+# Os notebooks mostram os resultados já obtidos na época, sem reexecução
+execute:
+  enabled: false
+
+website:
+  title: "Orientações"
+  description: "Trabalhos de mestrado e TCC orientados pelo Prof. Dr. Raphael Teixeira (UFPA-CAMTUC-FEE)"
+  site-url: https://raphateixeira.github.io/Orientacoes/
+  repo-url: https://github.com/raphateixeira/Orientacoes
+  navbar:
+    background: "#FFFFFF"   # navbar branca (camada "Site" do TemaRTx.scss)
+    foreground: "#0F1B33"
+    title: "Orientações"
+    left:
+      - text: "Início"
+        href: https://raphateixeira.github.io/index.html
+      - text: "Orientações"
+        href: index.qmd
+    right:
+      - text: "Análise DGA"
+        href: index.qmd#analise-dga
+      - text: "Diagnóstico de malária"
+        href: index.qmd#malaria
+      - text: "PID por algoritmo genético"
+        href: index.qmd#pid-ag
+      - icon: github
+        href: https://github.com/raphateixeira/Orientacoes
+        aria-label: Repositório no GitHub
+  page-footer:
+    border: false
+    center: "©2026 Prof. Dr. Raphael Teixeira — UFPA-CAMTUC-FEE"
+
+format:
+  html:
+    theme: [cosmo, TemaRTx.scss]
+    lang: pt-BR
+    toc: true
