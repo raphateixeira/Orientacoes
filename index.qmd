@@ -47,6 +47,14 @@ esfregaços sanguíneos por redes neurais convolucionais —
 * [Comparação de três modelos](DiagnosticoMalaria/Malaria_3_modelos.ipynb) — treinamento e avaliação das três arquiteturas.
 * [Comparação de três modelos — métricas com 3 casas decimais](DiagnosticoMalaria/Malaria_3_modelos_3CasasDecimais.ipynb) — a mesma análise, com os resultados finais da dissertação.
 
+::: {.callout-note title="Trabalho novo (2026) · em revisão"}
+**[Avaliação e classificação por paciente](DiagnosticoMalaria/AvaliacaoPorPaciente/apresentacao.qmd)** (apresentação):
+continuação da dissertação, com **resultados novos**, que não estão nela. As imagens passam a ser separadas
+**por paciente**, e não por célula, e as células de cada paciente são agregadas para classificá-lo.
+Três redes convolucionais (EfficientNet-B0, ResNet50, MobileNetV3) foram treinadas de novo. Versão preliminar,
+em revisão pelos autores, preparada para o V Simpósio Internacional do NDAE (novembro de 2026).
+:::
+
 ## Otimização de PID por algoritmo genético {#pid-ag}
 
 TCC de **Diego Antonio Silva de Jesus** (2023): otimização evolutiva de controladores PID para bancadas

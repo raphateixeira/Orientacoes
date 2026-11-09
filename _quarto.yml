@@ -9,6 +9,7 @@ project:
     - AnaliseDGA/Apresentacao/apresentacao.qmd
     # Mestrado — Raphael Saraiva Sousa (ex-MScRaphael)
     - DiagnosticoMalaria/*.ipynb
+    - DiagnosticoMalaria/AvaliacaoPorPaciente/apresentacao.qmd   # trabalho novo (2026), em revisão
     # TCC — Diego Antonio Silva de Jesus (ex-TCC-PID-AlgoritmoGenetico)
     - PIDAlgoritmoGenetico/*.ipynb
   resources:
