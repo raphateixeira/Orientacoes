@@ -1,0 +1,21 @@
+---
+title: "Diagnóstico de transformadores por análise DGA"
+subtitle: "Mestrado · Otacílio Rodrigues Oliveira Filho"
+---
+
+<!-- Página própria desta orientação (antes era uma seção de ../index.qmd). -->
+
+Mestrado de **Otacílio Rodrigues Oliveira Filho** (PPCA, 2024): diagnóstico inteligente de faltas em
+transformadores de potência pela análise de gases dissolvidos em óleo (DGA), com redes neurais (ANN),
+k-vizinhos mais próximos (KNN) e o método de Duval —
+[dissertação](Publicacoes/Dissertacao_Otacilio.pdf)
+([repositório UFPA](https://repositorio.ufpa.br/items/eeecc00f-702c-453c-968a-867779a14a70)).
+
+* [Dataset DGA](DataSet/Dataset.qmd) — 2004 amostras de gases dissolvidos usadas para treinar e avaliar os modelos ([planilha](DataSet/DataSetDGA.xlsx)).
+* [Sistema de diagnóstico inteligente — visão geral](ResultadosMestrado/SistemaDiagnosticoInteligente.ipynb) — carregamento dos algoritmos ANN, KNN e Duval.
+* [Classificação por KNN](ResultadosMestrado/Knn.ipynb) e [por rede neural (RNA)](ResultadosMestrado/RNA.ipynb) — notebooks da dissertação (Google Colab); modelos treinados `knn_DGA.sav` e `meuRnn.pkl` na mesma pasta.
+* [Apresentação comparativa](Apresentacao/apresentacao.qmd) — resultados do mestrado × novos resultados.
+* [Novos resultados](https://github.com/raphateixeira/Orientacoes/tree/main/AnaliseDGA/ResultadosNovos) — benchmark com os métodos convencionais (Doernenburg, Duval, gás-chave, IEC 60599, Rogers), em desenvolvimento.
+* [Artigo derivado da dissertação](Publicacoes/Artigo_PPCA_DGA.pdf) — a ser submetido.
+
+[← Todas as orientações](../index.qmd)

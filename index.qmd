@@ -2,8 +2,8 @@
 pagetitle: "Orientações"
 ---
 
-<!-- Página única do repositório: uma seção por orientando, com links diretos para o conteúdo.
-     Âncoras fixas (#analise-dga, #malaria, #pid-ag) usadas na navbar do _quarto.yml. -->
+<!-- Índice das orientações: cada trabalho tem página própria (<pasta>/index.qmd).
+     As âncoras antigas (#analise-dga, #malaria, #pid-ag) foram mantidas nos resumos abaixo. -->
 
 ::: {.rtx-hero}
 [Orientações · Mestrado e TCC]{.rtx-eyebrow}
@@ -16,51 +16,29 @@ num só lugar. Os notebooks mostram os resultados obtidos na época, sem reexecu
 [Prof. Dr. Raphael Teixeira · UFPA, Campus de Tucuruí]{.rtx-meta}
 
 ::: {.rtx-acoes}
-[Análise DGA](#analise-dga){.rtx-btn .rtx-btn-primario} [Diagnóstico de malária](#malaria){.rtx-btn} [PID por algoritmo genético](#pid-ag){.rtx-btn} [GitHub](https://github.com/raphateixeira/Orientacoes){.rtx-btn}
+[Análise DGA](AnaliseDGA/index.qmd){.rtx-btn .rtx-btn-primario} [Malária](DiagnosticoMalaria/index.qmd){.rtx-btn} [PID por algoritmo genético](PIDAlgoritmoGenetico/index.qmd){.rtx-btn} [GitHub](https://github.com/raphateixeira/Orientacoes){.rtx-btn}
 :::
 :::
 
 A lista completa de dissertações e TCCs orientados está na página
 [Publicações](https://raphateixeira.github.io/Publicacoes/) do site.
 
-## Diagnóstico de transformadores por análise DGA {#analise-dga}
+## Mestrado
 
-Mestrado de **Otacílio Rodrigues Oliveira Filho** (PPCA, 2024): diagnóstico inteligente de faltas em
-transformadores de potência pela análise de gases dissolvidos em óleo (DGA), com redes neurais (ANN),
-k-vizinhos mais próximos (KNN) e o método de Duval —
-[dissertação](AnaliseDGA/Publicacoes/Dissertacao_Otacilio.pdf)
-([repositório UFPA](https://repositorio.ufpa.br/items/eeecc00f-702c-453c-968a-867779a14a70)).
+### Diagnóstico de transformadores por análise DGA {#analise-dga}
 
-* [Dataset DGA](AnaliseDGA/DataSet/Dataset.qmd) — 2004 amostras de gases dissolvidos usadas para treinar e avaliar os modelos ([planilha](AnaliseDGA/DataSet/DataSetDGA.xlsx)).
-* [Sistema de diagnóstico inteligente — visão geral](AnaliseDGA/ResultadosMestrado/SistemaDiagnosticoInteligente.ipynb) — carregamento dos algoritmos ANN, KNN e Duval.
-* [Classificação por KNN](AnaliseDGA/ResultadosMestrado/Knn.ipynb) e [por rede neural (RNA)](AnaliseDGA/ResultadosMestrado/RNA.ipynb) — notebooks da dissertação (Google Colab); modelos treinados `knn_DGA.sav` e `meuRnn.pkl` na mesma pasta.
-* [Apresentação comparativa](AnaliseDGA/Apresentacao/apresentacao.qmd) — resultados do mestrado × novos resultados.
-* [Novos resultados](https://github.com/raphateixeira/Orientacoes/tree/main/AnaliseDGA/ResultadosNovos) — benchmark com os métodos convencionais (Doernenburg, Duval, gás-chave, IEC 60599, Rogers), em desenvolvimento.
-* [Artigo derivado da dissertação](AnaliseDGA/Publicacoes/Artigo_PPCA_DGA.pdf) — a ser submetido.
+**Otacílio Rodrigues Oliveira Filho** (PPCA, 2024): faltas em transformadores de potência pela análise de gases
+dissolvidos em óleo, com redes neurais, KNN e o método de Duval. [Acessar →](AnaliseDGA/index.qmd)
 
-## Diagnóstico de malária por aprendizagem profunda {#malaria}
+### Detecção de malária por aprendizagem profunda {#malaria}
 
-Mestrado de **Raphael Saraiva Sousa** (PPCA, 2026): diagnóstico automatizado da malária em imagens de
-esfregaços sanguíneos por redes neurais convolucionais —
-[artigo na Revista DCS](https://doi.org/10.54899/dcs.v23i88.4926).
+**Raphael Saraiva de Sousa** (PPCA, 2026): classificação de células de malária em imagens de esfregaços
+sanguíneos por redes convolucionais, com um trabalho novo (2026, em revisão) de avaliação por paciente.
+[Acessar →](DiagnosticoMalaria/index.qmd)
 
-* [Comparação de três modelos](DiagnosticoMalaria/Malaria_3_modelos.ipynb) — treinamento e avaliação das três arquiteturas.
-* [Comparação de três modelos — métricas com 3 casas decimais](DiagnosticoMalaria/Malaria_3_modelos_3CasasDecimais.ipynb) — a mesma análise, com os resultados finais da dissertação.
+## Trabalho de conclusão de curso
 
-::: {.callout-note title="Trabalho novo (2026) · em revisão"}
-**[Avaliação e classificação por paciente](DiagnosticoMalaria/AvaliacaoPorPaciente/apresentacao.qmd)** (apresentação):
-continuação da dissertação, com **resultados novos**, que não estão nela. As imagens passam a ser separadas
-**por paciente**, e não por célula, e as células de cada paciente são agregadas para classificá-lo.
-Três redes convolucionais (EfficientNet-B0, ResNet50, MobileNetV3) foram treinadas de novo. Versão preliminar,
-em revisão pelos autores, preparada para o V Simpósio Internacional do NDAE (novembro de 2026).
-:::
+### Otimização de PID por algoritmo genético {#pid-ag}
 
-## Otimização de PID por algoritmo genético {#pid-ag}
-
-TCC de **Diego Antonio Silva de Jesus** (2023): otimização evolutiva de controladores PID para bancadas
-motor-gerador com algoritmos genéticos (PyGad) —
-[monografia na BDM/UFPA](https://bdm.ufpa.br/items/67f3bf00-b13a-4817-821f-7e6faaab85da).
-
-* [Otimização com PyGad](PIDAlgoritmoGenetico/PyGad.ipynb) — algoritmo genético para a sintonia dos ganhos.
-* [Sintonia dos ganhos](PIDAlgoritmoGenetico/SintoniaK.ipynb) — avaliação dos controladores sintonizados.
-* [Apresentação da defesa](PIDAlgoritmoGenetico/Present_Diego.pdf) (PDF).
+**Diego Antonio Silva de Jesus** (2023): sintonia de controladores PID para bancadas motor-gerador com
+algoritmos genéticos (PyGad). [Acessar →](PIDAlgoritmoGenetico/index.qmd)

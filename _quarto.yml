@@ -3,6 +3,9 @@ project:
   output-dir: _site
   render:
     - index.qmd
+    - AnaliseDGA/index.qmd
+    - DiagnosticoMalaria/index.qmd
+    - PIDAlgoritmoGenetico/index.qmd
     # Mestrado — Otacílio (ex-AnaliseDGA)
     - AnaliseDGA/DataSet/Dataset.qmd
     - AnaliseDGA/ResultadosMestrado/*.ipynb
@@ -37,11 +40,11 @@ website:
         href: index.qmd
     right:
       - text: "Análise DGA"
-        href: index.qmd#analise-dga
-      - text: "Diagnóstico de malária"
-        href: index.qmd#malaria
+        href: AnaliseDGA/index.qmd
+      - text: "Malária"
+        href: DiagnosticoMalaria/index.qmd
       - text: "PID por algoritmo genético"
-        href: index.qmd#pid-ag
+        href: PIDAlgoritmoGenetico/index.qmd
       - icon: github
         href: https://github.com/raphateixeira/Orientacoes
         aria-label: Repositório no GitHub

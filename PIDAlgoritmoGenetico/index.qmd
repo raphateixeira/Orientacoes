@@ -1,0 +1,16 @@
+---
+title: "Otimização de PID por algoritmo genético"
+subtitle: "TCC · Diego Antonio Silva de Jesus"
+---
+
+<!-- Página própria desta orientação (antes era uma seção de ../index.qmd). -->
+
+TCC de **Diego Antonio Silva de Jesus** (2023): otimização evolutiva de controladores PID para bancadas
+motor-gerador com algoritmos genéticos (PyGad) —
+[monografia na BDM/UFPA](https://bdm.ufpa.br/items/67f3bf00-b13a-4817-821f-7e6faaab85da).
+
+* [Otimização com PyGad](PyGad.ipynb) — algoritmo genético para a sintonia dos ganhos.
+* [Sintonia dos ganhos](SintoniaK.ipynb) — avaliação dos controladores sintonizados.
+* [Apresentação da defesa](Present_Diego.pdf) (PDF).
+
+[← Todas as orientações](../index.qmd)

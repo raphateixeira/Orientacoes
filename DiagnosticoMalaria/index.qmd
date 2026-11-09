@@ -1,0 +1,23 @@
+---
+title: "Detecção de malária por aprendizagem profunda"
+subtitle: "Mestrado · Raphael Saraiva de Sousa"
+---
+
+<!-- Página própria desta orientação (antes era uma seção de ../index.qmd). -->
+
+Mestrado de **Raphael Saraiva Sousa** (PPCA, 2026): diagnóstico automatizado da malária em imagens de
+esfregaços sanguíneos por redes neurais convolucionais —
+[artigo na Revista DCS](https://doi.org/10.54899/dcs.v23i88.4926).
+
+* [Comparação de três modelos](Malaria_3_modelos.ipynb) — treinamento e avaliação das três arquiteturas.
+* [Comparação de três modelos — métricas com 3 casas decimais](Malaria_3_modelos_3CasasDecimais.ipynb) — a mesma análise, com os resultados finais da dissertação.
+
+::: {.callout-note title="Trabalho novo (2026) · em revisão"}
+**[Avaliação e classificação por paciente](AvaliacaoPorPaciente/apresentacao.qmd)** (apresentação):
+continuação da dissertação, com **resultados novos**, que não estão nela. As imagens passam a ser separadas
+**por paciente**, e não por célula, e as células de cada paciente são agregadas para classificá-lo.
+Três redes convolucionais (EfficientNet-B0, ResNet50, MobileNetV3) foram treinadas de novo. Versão preliminar,
+em revisão pelos autores, preparada para o V Simpósio Internacional do NDAE (novembro de 2026).
+:::
+
+[← Todas as orientações](../index.qmd)
